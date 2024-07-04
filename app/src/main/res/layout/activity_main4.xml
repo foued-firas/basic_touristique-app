@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+        <Button
+            android:id="@+id/btn10"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Germany"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#C0C0C0"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:text="Germany is a Western European country characterized by forests, rivers, mountain ranges, and beaches on the North Sea. Its history dates back more than 2,000 years. Berlin, its capital, has a lively artistic and nightlife scene and includes the Brandenburg Gate and many sites related to World War II. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, is home to the European Central Bank."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Example of places in Germany"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/german1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="château de neuschwanstein"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/marienplatz" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Marienplatz"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/m"
+             />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Berlin,Germany"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/munich"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Munich"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palestine"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#C0C0C0"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:text="Palestine, which is recognized as a de jure sovereign state and often described as a proto-state, is situated in the Middle East and asserts its establishment on the Palestinian territories that are presently occupied, including East Jerusalem."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Example of places in Palestine"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/kodes" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="kodes , palestine"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/gaza" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="gaza , palestine"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/jerusalem"
+
+          />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Jerusalem"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japan"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#C0C0C0"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:text="Japan is an island country located in the Pacific Ocean. It features dense cities, imperial palaces, mountainous national parks, and thousands of temples and shrines. The high-speed Shinkansen trains connect the main islands of Kyushu (with subtropical beaches in Okinawa), Honshu (where Tokyo and the memorial to the victims of the atomic bombing of Hiroshima are located), and Hokkaido (popular for skiing). Tokyo, the capital, is known for its skyscrapers, shops, and popular culture."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Example of places in Japan"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tokyo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="tokya"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nagasaki" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nagasaki"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/fuju"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="fuji"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

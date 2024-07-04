@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mexico"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#C0C0C0"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:text="Between the United States and Central America, Mexico is a country known for its Pacific and Gulf of Mexico beaches, as well as its diverse landscapes that include mountains, deserts, and jungles. It is home to ancient ruins such as Teotihuacan and the Mayan city of Chichén Itzá, as well as colonial Spanish-era cities. Its capital, Mexico City, offers a return to modernity with its upscale shops, renowned museums, and gourmet restaurants."
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Example of places in Mexico"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chichen" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Chichén Itzá mexico"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cancun" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="cancun mexic"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/angel" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" The Angel Of Independence"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/kabah" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Kabah"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

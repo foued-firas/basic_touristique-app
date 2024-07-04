@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg2"
+        >
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tunisie" />
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Tunisia"
+            android:textAllCaps="false" />
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/germany" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Germany"
+            android:textAllCaps="false" />
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mexico" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Mexico"
+            android:textAllCaps="false" />
+        <ListView
+            android:id="@+id/list3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/japan" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Japan"
+            android:textAllCaps="false" />
+        <ListView
+            android:id="@+id/list4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/palestine" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Palestine"
+            android:textAllCaps="false" />
+        <ListView
+            android:id="@+id/list5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/russia" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="Visit Russia"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
